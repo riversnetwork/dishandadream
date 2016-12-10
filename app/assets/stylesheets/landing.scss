@@ -1,0 +1,71 @@
+// Place all the styles related to the Landing controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+// main styles
+body {
+  background: brown !important;
+  color: white !important;
+}
+
+.white-text {
+    color: white;
+}
+
+#title {
+  font-family: 'Fredoka One', cursive;
+}
+
+#photo01, #photo02, #photo03 {
+  height: 75px;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  border: solid white 1px;
+}
+
+#photo01 {
+  background: url('egg_dish.jpg') no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#photo02 {
+  background: url('egg_dish.jpg') no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#photo03 {
+  background: url('egg_dish.jpg') no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#buttons button {
+  width: 100%;
+  margin: 10px 0 0 0;
+}
+
+footer {
+  margin-top:10px;
+}
+
+/* Available Fonts
+font-family: 'Alfa Slab One', cursive;
+font-family: 'Amaranth', sans-serif;
+font-family: 'Antic Slab', serif;
+font-family: 'Changa One', cursive;
+font-family: 'Fredoka One', cursive;
+font-family: 'Glegoo', serif;
+font-family: 'Luckiest Guy', cursive;
+font-family: 'Oleo Script', cursive;
+font-family: 'Paytone One', sans-serif;
+font-family: 'Philosopher', sans-serif;
+font-family: 'Sacramento', cursive;
+font-family: 'Ultra', serif;
+font-family: 'Chango', cursive;
+font-family: 'Erica One', cursive;
+*/
+
+
+
