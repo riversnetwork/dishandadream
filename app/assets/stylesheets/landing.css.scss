@@ -24,22 +24,23 @@ body {
 }
 
 #photo01 {
-  background: image-url('egg_dish.jpg') no-repeat;
+  background: image-url('dish01.jpg') no-repeat;
   background-position: center;
   background-size: cover;
 }
 
 #photo02 {
-  background: image-url('egg_dish.jpg') no-repeat;
+  background: image-url('dish02.jpg') no-repeat;
   background-position: center;
   background-size: cover;
 }
 
 #photo03 {
-  background: image-url('egg_dish.jpg') no-repeat;
+  background: image-url('dish03.jpg') no-repeat;
   background-position: center;
   background-size: cover;
 }
+
 
 #buttons button {
   width: 100%;
@@ -48,6 +49,18 @@ body {
 
 footer {
   margin-top:10px;
+}
+
+@media only screen and (min-width: 600px) {
+  #photo01, #photo02, #photo03 {
+  height: 150px;
+  } 
+}
+
+@media only screen and (min-width: 768px) {
+  #photo01, #photo02, #photo03 {
+  height: 200px;
+  } 
 }
 
 /* Available Fonts
